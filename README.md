@@ -11,7 +11,9 @@ using the right data structures and some basic optimizations - I managed to narr
 to run the code - clone it to your computer,
 open the terminal to the files path.
 press "ant compile"
-press "ant run"
-you will get the database sorted out - in a new text file that will be open in the same path as the code files.
+then choose an option:
+press "ant run1 pathToYouChoose"  will run a full check on the corpus and print the full output to file you gave as an argument.
+press "ant run2 pathToCorpus HypernymYouChoose"  will run a check only for this hypernym and it hyponyms and will print the results to terminal
+
 
 enjoy!
